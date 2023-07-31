@@ -1,22 +1,23 @@
+# requests library lets you interact with http directly from python
 import requests
 import uuid
 
 ENDPOINT = "https://todo.pixegami.io"
 
-#response = requests.get(ENDPOINT)
-#print(response)
+# response = requests.get(ENDPOINT)
+# print(response)
 
-#data = response.json()
-#print(data)
+# data = response.json()
+# print(data)
 
-#status_code = response.status_code
-#print(status_code)
+# status_code = response.status_code
+# print(status_code)
 
 
-#def test_can_call_endpoint():
- #   response = requests.get(ENDPOINT)
-  #  assert response.status_code == 200
-   # pass
+# def test_can_call_endpoint():
+#    response = requests.get(ENDPOINT)
+#   assert response.status_code == 200
+#  pass
 
 
 def test_can_create_task():
